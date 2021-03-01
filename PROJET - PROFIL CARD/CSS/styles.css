@@ -1,0 +1,157 @@
+/*************************** GENERAL ***************************/
+body {
+  background-color: #FFF;
+  background-color: hsl(185, 75%, 39%);
+  text-align: center;
+  font-family: 'Kumbh Sans', sans-serif;
+  font-size: 18px;
+  overflow-y: hidden;
+  overflow-x: hidden;
+}
+
+hr {
+  border: 0.5px solid #FFF;
+  border: 0.5px solid hsl(0, 0%, 59%);
+  border-bottom: none;
+  margin: 0;
+}
+
+ul {
+  margin: 0 auto;
+  padding: 0 10px;
+}
+
+/*************************** MAIN DIV ***************************/
+.main-container {
+  background-color: #FFF;
+  height: 410px;
+  width: 300px;
+  margin: 0 38%;
+  position: absolute;
+  z-index: 1;
+  top: 120px;
+  border-radius: 15px 15px 15px 15px;
+  box-shadow: 0 0 10px hsl(229, 23%, 23%);
+}
+
+.main-container:hover {
+  box-shadow: 0 0 20px white;
+}
+
+/*************************** TOP OF CARD ***************************/
+.top-card {
+  background-image: url("images/bg-pattern-card.svg");
+  position: relative;
+  width: 100%;
+  border-radius: 15px 15px 0 0;
+  overflow: hidden;
+  margin: 0;
+}
+
+/* .top-card-image {
+} */
+/*************************** MIDDLE OF CARD ***************************/
+.middle-card {
+  position: relative;
+  margin: 0 auto;
+  bottom: 25px;
+}
+
+.container-picture-victor {
+  position: relative;
+  bottom: 14%;
+}
+
+.picture-victor {
+  border-radius: 50%;
+  border: 4px solid #FFF;
+}
+
+.ul-item {
+  display: inline;
+  padding: 0 5px;
+  list-style: none;
+}
+
+/*************************** BOTTOM OF CARD ***************************/
+.bottom-card {
+  position: relative;
+  z-index: 2;
+  border-radius: 0 0 15px 15px;
+  font-weight: 700;
+  color: #FFF;
+  color: hsl(229, 23%, 23%);
+  display: flex;
+  align-items: center;
+  height: 100px;
+}
+
+.user-name {
+  font-weight: 700;
+  color: #FFF;
+  color: hsl(229, 23%, 23%);
+}
+
+.user-age {
+  color: #FFF;
+  color: hsl(0, 0%, 59%);
+  font-family: 'Kumbh Sans', sans-serif;
+  font-weight: 300;
+}
+
+.user-city {
+  color: #FFF;
+  color: hsl(0, 0%, 59%);
+  font-family: 'Kumbh Sans', sans-serif;
+  font-weight: 300;
+}
+
+.slot-info {
+  width: 50%;
+  position: relative;
+  bottom: 8px;
+}
+
+.slot-text {
+  color: #FFF;
+  color: hsl(0, 0%, 59%);
+  font-weight: 300;
+  font-size: 12px;
+}
+
+.slot-info p {
+  margin: 5px auto;
+}
+
+/*************************** CIRCLES IMAGES ***************************/
+.circle-top {
+  position: relative;
+  z-index: -1;
+  bottom: 450px;
+  right: 43%
+}
+
+.circle-bottom {
+  position: relative;
+  z-index: -1;
+  bottom: 700px;
+  left: 40%
+}
+
+.attribution {
+  position: relative;
+  z-index: 2;
+  bottom: 1400px;
+}
+
+/*************************** ATTRIBUTION ***************************/
+
+.attribution p a {
+  text-decoration: none;
+  color: #FFF;
+  text-shadow: 2px 2px 2px #000;
+}
+
+.attribution p a:hover {
+  text-shadow: 3px 3px 3px #000;
+}
